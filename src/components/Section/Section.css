@@ -1,0 +1,33 @@
+.the-section .display-block {
+  display: block;
+  padding-top: 10%;
+}
+
+.the-section {
+  width: 70%;
+  display: flex;
+  text-align: justify;
+  flex-direction: column;
+}
+
+
+.the-section p {
+  margin-top: 5%;
+}
+
+.the-section h4 {
+  font-weight: bold;
+  color: #00b846;
+  cursor: pointer;
+}
+.size {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  border-radius: 50px;
+}
+
+@media (min-width: 1200px) {
+  .the-section{
+    width: 50%;
+  }
+}
