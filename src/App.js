@@ -65,7 +65,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Navbar links={navLinks}/>
+        <Navbar links={navLinks} search="Search"/>
         <Header title="L'Afrique " titleCont=" En Europe" caption="Comme C'est belle 'la vie'"/>
 
         <Section data={articleData}/> {/* <Section titleOfArti="Content Avec La Vie" image="https://c.pxhere.com/photos/b5/0c/grandparents_grandmother_people_happy_family_senior_outdoors_portrait-1283525.jpg!d" author="By Jean Batist" date="20/6/16" content="Synth letterpress ennui, vaporware lumbersexual stumptown tumeric cred mustache etsy. Af master cleanse ethical, banjo gochujang williamsburg migas. Poutine ennui twee post-ironic lomo crucifix pitchfork pok pok flannel. Succulents freegan bicycle rights, tumblr pinterest sriracha hashtag before they sold out 90's copper mug beard lo-fi master cleanse. Paleo keffiyeh taxidermy put a bird on it cold-pressed humblebrag. Keffiyeh fashion axe tousled tofu. Trust fund fixie shoreditch bespoke next level humblebrag tofu wayfarers cred pour-over viral man braid unicorn. Neutra pinterest knausgaard, tumblr banjo cardigan synth twee art party irony. Cardigan coloring book gochujang brooklyn slow-carb hoodie vexillologist mixtape. Vape pabst poutine put a bird on it raclette vexillologist. Subway tile umami meh bicycle rights, godard brooklyn retro raclette drinking vinegar 90's selvage venmo. Bushwick taiyaki food truck adaptogen kombucha tacos swag. Coloring book viral hot chicken master cleanse. VHS offal yr gochujang pickled health goth you probably haven't heard of them raw denim helvetica YOLO pug slow-carb. Offal post-ironic unicorn, blue bottle chambray semiotics street art synth mlkshk iPhone copper mug echo park."/>
